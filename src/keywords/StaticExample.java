@@ -15,6 +15,8 @@ public class StaticExample {
 	}
 
 	//non-static methods can access everything directly.
+	//“A non-static method can call any static or non-static method directly because it's tied to an object, 
+	//which gives full access to the class members.”
 	void m()
 	{
 		System.out.println(a);
@@ -34,6 +36,11 @@ public class StaticExample {
 		StaticExample s= new StaticExample();
 		s.m2();
 		System.out.println(s.b);
+		
+//		System.out.println("-----------------------------");
+//		s.m();
+		
+		// m(); not possible
 
 	}
 

@@ -5,9 +5,9 @@ public class StringComparision {
 	public static void main(String[] args) {
 		//case 1- When we create a string like this we can use both == and equals, that will return the same output
 		/*String s1="welcome";
-		String s2="welcome";
-		System.out.println(s1==s2);//true
-		System.out.println(s1.equals(s2));// true
+		String s2="welcome"; 
+		System.out.println(s1==s2);//true //checks memory address
+		System.out.println(s1.equals(s2));// true //checks contents are same
 		*/
 		//case 2- When we create a string with object then it acts like below
 

@@ -8,7 +8,7 @@ final class test1
 		System.out.println("This m method is from Test1");
 	}
 }
-/* class test2 extends test1// incorrect, bcoz test1 is final class
+/*class test2 extends test1// incorrect, bcoz test1 is final class
  {
 	//void m()// incorrect, m() is final method
 	{

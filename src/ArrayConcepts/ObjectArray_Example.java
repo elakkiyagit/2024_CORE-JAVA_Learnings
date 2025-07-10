@@ -19,7 +19,7 @@ public class ObjectArray_Example {
 		for (Object x : a)
 		{
 		System.out.println(x);	// why x only mentioned here and not a[x]
-		// because variables in foreach loop represents the elements of the collection directly .
+		// because variables in for-each loop represents the elements of the collection directly .
 		//So there is no need of use index like a[x] .PS chatGPT
 		}
 

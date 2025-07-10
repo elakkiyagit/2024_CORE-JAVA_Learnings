@@ -7,7 +7,7 @@ public class ExceptionsDemo {
 	public static void main(String[] args) {
 		System.out.println("program is started...");
 
-		Scanner sc= new Scanner(System.in);
+		//Scanner sc= new Scanner(System.in);
 		//Example: 1
 		/*System.out.println("Enter a number..");
 		int num=sc.nextInt();
@@ -24,11 +24,11 @@ public class ExceptionsDemo {
 		System.out.println(a[pos]);
 		*/
 		//Example 3:
-		/*String s="Welcome";
-		int val = Integer.parseInt(s);//NumberFormatException
+		String s="Welcome";
+		int val = Integer.parseInt(s);//NumberFormatException bcuz “The string given isn’t in a valid numeric format.”
 		System.out.println(val);
 
-		*/
+		
 
 		//Example 4:
 		/*String s=null;

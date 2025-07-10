@@ -5,7 +5,7 @@ public class SearchingAnElement {
 	public static void main(String[] args) {
 
 		int a[]= {10,20,30,40,50};
-		int search_element=50;
+		int search_element=500;
 		boolean status=false;
 
 		/*for(int i=0;i<a.length;i++)
@@ -28,7 +28,7 @@ public class SearchingAnElement {
 			break;
 			}
 		}
-		if(!status)
+		if(!status) // same as: if (status == false)
 		{
 			System.out.println("Element not found");
 		}

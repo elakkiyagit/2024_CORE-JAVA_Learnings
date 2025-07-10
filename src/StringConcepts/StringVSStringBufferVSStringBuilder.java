@@ -10,6 +10,13 @@ public class StringVSStringBufferVSStringBuilder {
 		System.out.println(s);//Welcome
 		s.concat("to java"); // using this operation we cannot change the original value
 		System.out.println(s);//Welcome//Immutable, cannot change the original value of s
+		s=s.concat("to java"); // by storing it to a variable we can see the newly created one
+		System.out.println(s);
+		
+		//Because String.concat() does not change the original string s.
+		//Instead, it returns a new string and we need to assign it to a variable if we want to see the newly created string.
+		
+		
 
 		//StringBuffer- mutable
 

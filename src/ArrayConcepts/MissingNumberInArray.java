@@ -13,7 +13,7 @@ public class MissingNumberInArray {
 
 		//1+3+4+5=13 sum1
 		//1+2+3+4+5=15 sum2
-		//sum1-sum2=15-13=2
+		//sum2-sum1=15-13=2
 
 		int sum1=0;
 

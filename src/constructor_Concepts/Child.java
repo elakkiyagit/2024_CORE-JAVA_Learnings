@@ -3,7 +3,7 @@ package constructor_Concepts;
 public class Child extends Parent{
 
 	public Child() {
-		//super()
+		//  super(); // Java adds this line automatically
 		System.out.println("Child constructor");
 	}
 
@@ -15,6 +15,10 @@ public class Child extends Parent{
 		System.out.println("demo1");
 
 	}
+	
+/*	Note: In Java, when a class inherits another class, the parent constructor is automatically called before the child constructor.
+
+Even if you don’t write super(), Java puts it there for you by default.*/
 
 	public static void main(String[] args)
 	{
